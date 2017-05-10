@@ -1,6 +1,6 @@
 # rollup-plugin-butternut
 
-Compress JavaScript with Butternut.
+Compress JavaScript with [Butternut](https://github.com/Rich-Harris/butternut).
 
 
 ## Installation
