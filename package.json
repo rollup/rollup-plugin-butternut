@@ -1,0 +1,36 @@
+{
+  "name": "rollup-plugin-butternut",
+  "version": "0.1.0",
+  "description": "Compress JavaScript files with Butternut",
+  "main": "dist/rollup-plugin-butternut.cjs.js",
+  "module": "dist/rollup-plugin-butternut.es.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "lint": "eslint src",
+    "prepublish": "npm run lint && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rollup/rollup-plugin-butternut.git"
+  },
+  "keywords": [
+    "rollup",
+    "butternut"
+  ],
+  "author": "Rich Harris",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rollup/rollup-plugin-butternut/issues"
+  },
+  "homepage": "https://github.com/rollup/rollup-plugin-butternut#readme",
+  "devDependencies": {
+    "eslint": "^3.19.0"
+  },
+  "dependencies": {
+    "butternut": "^0.3.0"
+  }
+}
