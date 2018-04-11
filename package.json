@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-butternut",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Compress JavaScript files with Butternut",
   "main": "dist/rollup-plugin-butternut.cjs.js",
   "module": "dist/rollup-plugin-butternut.es.js",
@@ -28,9 +28,9 @@
   },
   "homepage": "https://github.com/rollup/rollup-plugin-butternut#readme",
   "devDependencies": {
-    "eslint": "^3.19.0"
+    "eslint": "^4.19.1"
   },
   "dependencies": {
-    "butternut": "^0.3.0"
+    "butternut": "^0.4.6"
   }
 }
