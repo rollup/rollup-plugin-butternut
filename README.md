@@ -1,6 +1,6 @@
-# Moved
+# Deprecated
 
-This module has moved and is now available at [@rollup/plugin-butternut](https://github.com/rollup/plugins). Please update your dependencies. This repository is no longer maintained.
+This is no longer maintained. Please use https://www.npmjs.com/package/rollup-plugin-terser instead.
 
 # rollup-plugin-butternut
 
